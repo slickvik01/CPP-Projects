@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="C++ Projects" Database="">
+  <Project Name="Reverser" Path="Reverser/Reverser.project" Active="Yes"/>
+  <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="Fibonacci" ConfigName="Debug"/>
+      <Project Name="Reverser" ConfigName="Debug"/>
+      <Project Name="Reverser" ConfigName="Debug"/>
+      <Project Name="Fibonacci" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Fibonacci" ConfigName="Release"/>
+      <Project Name="Reverser" ConfigName="Release"/>
+      <Project Name="Reverser" ConfigName="Release"/>
+      <Project Name="Fibonacci" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
