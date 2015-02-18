@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	string word;
+	char word[256];
 	cout << "Give any word and I shall print it backwards" << endl;
 	cin >> word;
 	return 0;
