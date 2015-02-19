@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=Fibonacci
 ConfigurationName      :=Debug
-WorkspacePath          := "/Users/vikram/Library/Application Support/codelite/C++ Projects"
-ProjectPath            := "/Users/vikram/Documents/Fibonacci"
+WorkspacePath          := "/Users/vikram/Documents/CPP-Projects"
+ProjectPath            := "/Users/vikram/Documents/CPP-Projects/Fibonacci"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -88,7 +88,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/vikram/Documents/Fibonacci/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/vikram/Documents/CPP-Projects/Fibonacci/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) "main.cpp"
 

@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=Reverser
 ConfigurationName      :=Debug
-WorkspacePath          := "/Users/vikram/Documents/CPPProjects"
-ProjectPath            := "/Users/vikram/Documents/CPPProjects/Reverser"
+WorkspacePath          := "/Users/vikram/Documents/CPP-Projects"
+ProjectPath            := "/Users/vikram/Documents/CPP-Projects/Reverser"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Vikram Nithyanandam
-Date                   :=2015-02-16
+Date                   :=2015-02-17
 CodeLitePath           :="/Users/vikram/Library/Application Support/codelite"
 LinkerName             :=/Applications/Xcode.app/Contents/Developer/usr/bin/g++ 
 SharedObjectLinkerName :=/Applications/Xcode.app/Contents/Developer/usr/bin/g++ -dynamiclib -fPIC
@@ -59,7 +59,7 @@ AS       := /usr/bin/as
 ##
 ## User defined environment variables
 ##
-CodeLiteDir:=/Applications/codelite.app/Contents/SharedSupport/
+CodeLiteDir:=/Applications/Codelite.app/Contents/SharedSupport/
 Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
@@ -88,7 +88,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/vikram/Documents/CPPProjects/Reverser/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/vikram/Documents/CPP-Projects/Reverser/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) "main.cpp"
 
