@@ -2,7 +2,9 @@
 <CodeLite_Workspace Name="C++ Projects" Database="">
   <Project Name="Reverser" Path="Reverser/Reverser.project" Active="No"/>
   <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
-  <Project Name="Hangman" Path="HangMan/HangMan.project" Active="Yes"/>
+  <Project Name="Hangman" Path="HangMan/HangMan.project" Active="No"/>
+  <Project Name="TemperatureConverter" Path="TemperatureConverter/TemperatureConverter.project" Active="No"/>
+  <Project Name="DistanceConverter" Path="DistanceConverter/DistanceConverter.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Fibonacci" ConfigName="Debug"/>
@@ -10,6 +12,8 @@
       <Project Name="Reverser" ConfigName="Debug"/>
       <Project Name="Fibonacci" ConfigName="Debug"/>
       <Project Name="Hangman" ConfigName="Debug"/>
+      <Project Name="TemperatureConverter" ConfigName="Debug"/>
+      <Project Name="DistanceConverter" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Fibonacci" ConfigName="Release"/>
@@ -17,6 +21,8 @@
       <Project Name="Reverser" ConfigName="Release"/>
       <Project Name="Fibonacci" ConfigName="Release"/>
       <Project Name="Hangman" ConfigName="Release"/>
+      <Project Name="TemperatureConverter" ConfigName="Release"/>
+      <Project Name="DistanceConverter" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

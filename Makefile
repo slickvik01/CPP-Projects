@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Hangman - Debug ]----------"
-	@cd "HangMan" && $(MAKE) -f  "Hangman.mk"
+	@echo "----------Building project:[ DistanceConverter - Debug ]----------"
+	@cd "DistanceConverter" && $(MAKE) -f  "DistanceConverter.mk"
 clean:
-	@echo "----------Cleaning project:[ Hangman - Debug ]----------"
-	@cd "HangMan" && $(MAKE) -f  "Hangman.mk" clean
+	@echo "----------Cleaning project:[ DistanceConverter - Debug ]----------"
+	@cd "DistanceConverter" && $(MAKE) -f  "DistanceConverter.mk" clean
