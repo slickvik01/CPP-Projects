@@ -141,6 +141,58 @@ int main() {
 				break;
 			}
 		}
+		if (Unit1==3) {
+			if (Unit2==1) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				km=cm/100000;
+				cout << cm << " centimeter = " << km << " kilometers" << endl << endl;
+			}
+			if (Unit2==2) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				m=cm/100;
+				cout << cm << " centimeter = " << m << " meters" << endl << endl;
+			}
+			if (Unit2==3) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				cout << cm << " centimeter = " << cm << " centimeters" << endl << endl;
+			}
+			if (Unit2==4) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				mm=10*cm;
+				cout << cm << " centimeter = " << mm << "millimeters" << endl << endl;
+			}
+			if (Unit2==5) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				in=0.3937*cm;
+				cout << cm << " centimeter = " << in << " inches" << endl << endl;
+			}
+			if (Unit2==6) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				ft=0.0328*cm;
+				cout << cm << " centimeter = " << ft << " feet" << endl << endl;
+			}
+			if (Unit2==7) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				yd=0.0109*cm;
+				cout << cm << " centimeter = " << yd << " yards" << endl << endl;
+			}
+			if (Unit2==8) {
+				cout << "Type in centimeter: ";
+				cin >> cm;
+				mi=0.0000062137*cm;
+				cout << cm << " centimeter = " << mi << " miles" << endl << endl;
+			}
+			if (Unit2==0) {
+				break;
+			}
+		}
 	} 
 	
 	return 0;
