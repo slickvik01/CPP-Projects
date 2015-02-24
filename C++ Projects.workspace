@@ -4,7 +4,8 @@
   <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
   <Project Name="Hangman" Path="HangMan/HangMan.project" Active="No"/>
   <Project Name="TemperatureConverter" Path="TemperatureConverter/TemperatureConverter.project" Active="No"/>
-  <Project Name="DistanceConverter" Path="DistanceConverter/DistanceConverter.project" Active="Yes"/>
+  <Project Name="DistanceConverter" Path="DistanceConverter/DistanceConverter.project" Active="No"/>
+  <Project Name="GuessMyNumber" Path="GuessMyNumber/GuessMyNumber.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Fibonacci" ConfigName="Debug"/>
@@ -14,6 +15,7 @@
       <Project Name="Hangman" ConfigName="Debug"/>
       <Project Name="TemperatureConverter" ConfigName="Debug"/>
       <Project Name="DistanceConverter" ConfigName="Debug"/>
+      <Project Name="GuessMyNumber" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Fibonacci" ConfigName="Release"/>
@@ -23,6 +25,7 @@
       <Project Name="Hangman" ConfigName="Release"/>
       <Project Name="TemperatureConverter" ConfigName="Release"/>
       <Project Name="DistanceConverter" ConfigName="Release"/>
+      <Project Name="GuessMyNumber" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
