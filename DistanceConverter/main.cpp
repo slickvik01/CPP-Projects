@@ -193,6 +193,58 @@ int main() {
 				break;
 			}
 		}
+		if (Unit1==4) {
+			if (Unit2==1) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				km=mm/1000000;
+				cout << cm << " milimeter = " << km << " kilometers" << endl << endl;
+			}
+			if (Unit2==2) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				m=cm/1000;
+				cout << cm << " milimeter = " << m << " meters" << endl << endl;
+			}
+			if (Unit2==3) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				cm=mm/10
+				cout << cm << " milimeter = " << cm << " centimeters" << endl << endl;
+			}
+			if (Unit2==4) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				cout << cm << " milimeter = " << mm << "millimeters" << endl << endl;
+			}
+			if (Unit2==5) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				in=0.03937*mm;
+				cout << cm << " milimeter = " << in << " inches" << endl << endl;
+			}
+			if (Unit2==6) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				ft=0.00328*mm;
+				cout << cm << " milimeter = " << ft << " feet" << endl << endl;
+			}
+			if (Unit2==7) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				yd=0.00109*mm;
+				cout << cm << " milimeter = " << yd << " yards" << endl << endl;
+			}
+			if (Unit2==8) {
+				cout << "Type in milimeter: ";
+				cin >> mm;
+				mi=0.00000062137*mm;
+				cout << cm << " milimeter = " << mi << " miles" << endl << endl;
+			}
+			if (Unit2==0) {
+				break;
+			}
+		}
 	} 
 	
 	return 0;
