@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Fibonacci
+ProjectName            :=DistanceConverter
 ConfigurationName      :=Debug
 WorkspacePath          := "/Users/vikram/Documents/CPP-Projects"
-ProjectPath            := "/Users/vikram/Documents/CPP-Projects/Fibonacci"
+ProjectPath            := "/Users/vikram/Documents/CPP-Projects/DistanceConverter"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Vikram Nithyanandam
-Date                   :=2015-02-19
+Date                   :=2015-02-23
 CodeLitePath           :="/Users/vikram/Library/Application Support/codelite"
 LinkerName             :=/Applications/Xcode.app/Contents/Developer/usr/bin/g++ 
 SharedObjectLinkerName :=/Applications/Xcode.app/Contents/Developer/usr/bin/g++ -dynamiclib -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Fibonacci.txt"
+ObjectsFileList        :="DistanceConverter.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -88,7 +88,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/vikram/Documents/CPP-Projects/Fibonacci/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/vikram/Documents/CPP-Projects/DistanceConverter/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) "main.cpp"
 
